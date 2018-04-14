@@ -21,4 +21,10 @@ public class Application {
         return "Hello World!";
     }
 
+    @RequestMapping(method = RequestMethod.GET,
+            value = "/hello",
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public String WelcomeCI() {
+        return "Hello CI/CD";
+    }
 }
