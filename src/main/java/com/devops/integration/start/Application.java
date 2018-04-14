@@ -25,6 +25,6 @@ public class Application {
             value = "/helloci",
             produces = MediaType.APPLICATION_JSON_VALUE)
     public String WelcomeCI() {
-        return "Hello CI/CD";
+        return "Hello CI/CD HEROKU";
     }
 }
